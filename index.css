@@ -1,0 +1,101 @@
+@import url('https://rsms.me/inter/inter.css');
+.dimension_card{
+box-sizing: border-box;
+padding: 24px 32px;
+gap: 8px;
+width: 1100px;
+height: 76px;
+background: #EAECF0;
+border: 1px solid #EAECF0;
+border-radius: 8px;
+ margin: 0 auto;
+ margin-bottom: 25px;
+text-align: center;
+}
+.profilePic{
+    object-fit: cover;
+}
+.dimension_card:hover{
+    background-color: silver;
+}
+body{
+    background-color:  #F4F5F7;
+}
+a{
+color: black;
+text-decoration-line: none;
+}
+a:hover{
+    color: white;
+    font-weight: 900;
+    font-family: 'Times New Roman';
+    }
+.img_center{
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    padding: 30px 0 0 0 ;
+}
+.HeaderCard_space{
+    margin-bottom: 35px;
+}
+.textProperties{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+text-align: center;
+color: #101828;
+}
+.container{
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+}
+.SiteIcons_space{
+    margin: 0 auto;
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+.FooterCard_Space{
+    width: 100%;
+    height:115px ;
+}
+.FooterCard_Content{
+    width: 1100px;
+    border-top: 1px solid #EAECF0;;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin: 25px;
+
+}
+.img2_position{
+    margin-top: 10px ;
+}
+@media screen and (max-width: 768px){
+    body{
+        background-color: white;
+    }
+    .dimension_card{
+        width: 100%;
+    }
+    .FooterCard_Space{
+        width: 100%;
+    }
+    .FooterCard_Content{
+        width: 100%;
+        display: block;
+        margin: 0;
+        height: 140px;
+    }
+    .img2_position, .img3_position{
+        margin-top: 15px;
+    }
+    
+}
